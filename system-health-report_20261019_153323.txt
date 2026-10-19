@@ -1,0 +1,24 @@
+SYSTEM HEALTH REPORT
+Generated: Mon Oct 19 15:33:23 CDT 2026
+
+--- Operating system ---
+Darwin Suryas-MacBook-Pro.local 24.6.0 Darwin Kernel Version 24.6.0: Sun Aug 23 20:30:56 PDT 2026; root:xnu-11417.140.69.712.69~1/RELEASE_X86_64 x86_64
+Hostname: Suryas-MacBook-Pro.local
+
+--- Uptime and load ---
+15:33  up 4 days,  1:02, 3 users, load averages: 4.31 5.46 5.26
+
+--- Disk space for the current directory ---
+Filesystem      Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk1s1   466Gi   133Gi   316Gi    30%    542k  3.3G    0%   /System/Volumes/Data
+
+--- Memory ---
+The system has 17179869184 (4194304 pages with a page size of 4096).
+System-wide memory free percentage: 65%
+
+--- Top processes by CPU (up to 5) ---
+  566 /System/Library/  62.9  0.1
+  154 /System/Library/  19.9  0.5
+13146 /Applications/Di  17.0  0.7
+  385 /usr/libexec/Con   4.3  0.1
+  232 /usr/libexec/sys   3.8  0.1
