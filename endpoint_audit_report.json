@@ -1,0 +1,14 @@
+{
+    "audit_timestamp": "2026-10-20 16:50:55.189362",
+    "os": "Darwin",
+    "os_release": "24.6.0",
+    "os_version": "Darwin Kernel Version 24.6.0: Sun Aug 23 20:30:56 PDT 2026; root:xnu-11417.140.69.712.69~1/RELEASE_X86_64",
+    "hostname": "Suryas-MacBook-Pro.local",
+    "architecture": "x86_64",
+    "processor": "i386",
+    "ram_total_gb": 16.0,
+    "ram_available_gb": 7.6,
+    "disk_total_gb": 465.63,
+    "disk_free_gb": 319.86,
+    "primary_ipv4": "192.168.254.210"
+}
