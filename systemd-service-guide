@@ -1,0 +1,30 @@
+uname -s
+ps -p 1 -o comm=
+comand -v systemctl 
+command -v python3
+
+getent passwd nobody 
+getent group nogroup 
+
+sudo install -d -m 755 /opt/linux-lab-status 
+sudo install -m 644 service-files/index.html /opt/linux-lab-status/index.html 
+sudo install -m 644 service-files/linux-lab-status.service /etc/systemd/system/linux-lab-status.service
+
+sudo systemctl daemon-reload
+sudo systemctl enable --now linux-lab-status.service
+
+systemctl status linux-lab-status.service --no-pager
+
+python3 -c 'from urllib.request import ulrlopen; print(urlopen("https://127.0.0.1:8080"/").read().decode())'
+
+sudo journalctl -u linux-lab-status.service --no-pager -n 20
+
+sudo systemctl restart linux-lab-status.service 
+systemctl is-active linux-lab-status.service 
+sudo systemctl stop linux[-lab-status.service 
+sudo systemctl is-active linux-lab-status.service
+sudo systemctl start linux-lab-status.service
+
+sudo systemctl disable linux-lab-status.service
+
+
