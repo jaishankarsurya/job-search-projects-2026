@@ -1,0 +1,4 @@
+Line Number,Log Message
+1,Oct 20 04:10:15 macbook kernel[0]: AppleIntelLpssI2CController::_serviceIsSuspended - Error
+3,Oct 20 04:15:22 macbook com.apple.xpc.launchd[1]: Service exited with abnormal code: 1 - Critical failure
+6,Oct 20 04:30:00 macbook kernel[0]: CORETRANSPORT: Fatal hardware exception - CRITICAL ERROR

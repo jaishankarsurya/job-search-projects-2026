@@ -1,0 +1,6 @@
+Oct 20 04:10:15 macbook kernel[0]: AppleIntelLpssI2CController::_serviceIsSuspended - Error
+Oct 20 04:12:00 macbook WindowServer[300]: WARNING: CGXDisplayDidSetRefreshRate
+Oct 20 04:15:22 macbook com.apple.xpc.launchd[1]: Service exited with abnormal code: 1 - Critical failure
+Oct 20 04:20:01 macbook kernel[0]: USB device disconnected unexpectedly
+Oct 20 04:25:10 macbook sysmond[45]: Disk space warning threshold reached
+Oct 20 04:30:00 macbook kernel[0]: CORETRANSPORT: Fatal hardware exception - CRITICAL ERROR
