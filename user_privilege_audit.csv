@@ -1,0 +1,4 @@
+Username,UID,Shell,Is Admin
+nobody,4294967294,/usr/bin/false,NO
+suryajaishankar,501,/bin/zsh,YES
+nobody,4294967294,/usr/bin/false,NO
